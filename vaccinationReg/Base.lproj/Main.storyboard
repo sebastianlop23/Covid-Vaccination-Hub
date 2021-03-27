@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="vaccinationReg" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXE-6x-Cuf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1400"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBb-Oj-Yu0" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                        <subviews>
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rT2-zq-IW2">
+                                                <rect key="frame" x="0.0" y="-7" width="414" height="66"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Covid Vaccination Hub" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0x-nR-7vO">
+                                                <rect key="frame" x="10" y="10" width="394" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-Ql-adk">
+                                                <rect key="frame" x="9" y="75" width="396" height="674.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's an mRNA vaccine?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ez1-Xe-Pb8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="396" height="29"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHt-gn-F0D">
+                                                        <rect key="frame" x="0.0" y="39" width="396" height="150.5"/>
+                                                        <string key="text">A mRNA vaccine consists of a strand of mRNA that codes for a disease-specific protein (antigen). To improve the integration of this blueprint mRNA in the body cells and to increase the vaccine stability, the mRNA is enveloped by certain fatty substances (lipids): lipid polyplexes form LNPs.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How does it work?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVd-93-6mi">
+                                                        <rect key="frame" x="0.0" y="199.5" width="396" height="29"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPH-Pc-z9m">
+                                                        <rect key="frame" x="0.0" y="238.5" width="396" height="129"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="400" id="M4U-gV-tMu"/>
+                                                        </constraints>
+                                                        <string key="text">Once the mRNA vaccine is injected into a person, the lipid nanoparticles protect the mRNA from degradation and help it reach the cells where the information contained in the mRNA strand is read to produce the antigen protein that eventually triggers the desired immune response.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How did it come out so fast?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ute-7s-bTw">
+                                                        <rect key="frame" x="0.0" y="377.5" width="396" height="29"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hok-aZ-Eql">
+                                                        <rect key="frame" x="0.0" y="416.5" width="396" height="258"/>
+                                                        <string key="text">Researchers were not starting from scratch when they learned about SARS-CoV-2, the virus that causes COVID-19. SARS-CoV-2 is a member of the coronavirus family. According to the National Institute of Allergy and Infectious DiseasesTrusted Source, there are hundreds of coronaviruses. Albany College of Pharmacy and Health Sciences in Albany, NY, told MNT that scientists have been studying coronaviruses for over 50 years. This meant scientists had existing data on the structure, genome, and life cycle of this type of virus.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="AJr-go-YyZ">
+                                                <rect key="frame" x="10" y="785.5" width="400" height="238.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now that you know about the vaccine, you can find out if you could get the vaccine." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mo4-9i-3iM">
+                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="45.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5VL-Sz-IRj">
+                                                        <rect key="frame" x="0.0" y="60.5" width="400" height="34"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0Z-pE-xYi">
+                                                                <rect key="frame" x="0.0" y="0.0" width="94" height="34"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="94" id="gh2-tp-dGx"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ZK-bC-bKd">
+                                                                <rect key="frame" x="94" y="0.0" width="306" height="34"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEs-gq-bzh">
+                                                        <rect key="frame" x="0.0" y="109.5" width="400" height="34"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdC-to-vaR">
+                                                                <rect key="frame" x="0.0" y="0.0" width="94" height="34"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="94" id="qJO-LU-PFV"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="40f-Fb-Gxj">
+                                                                <rect key="frame" x="94" y="0.0" width="306" height="34"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0gC-uU-ABE">
+                                                        <rect key="frame" x="0.0" y="158.5" width="400" height="34"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(select one that applies)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eun-AB-BCG">
+                                                                <rect key="frame" x="0.0" y="0.0" width="200" height="34"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QWJ-Dd-YQm">
+                                                                <rect key="frame" x="200" y="0.0" width="200" height="34"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Va4-kH-ne7">
+                                                        <rect key="frame" x="0.0" y="207.5" width="400" height="31"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allergic to any vaccine?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHz-Wm-LnC">
+                                                                <rect key="frame" x="0.0" y="0.0" width="235" height="31"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="235" id="2WJ-8Q-GyS"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OZu-SL-6mS">
+                                                                <rect key="frame" x="235" y="0.0" width="167" height="31"/>
+                                                            </switch>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="400" id="a6k-zr-XhA"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="255" translatesAutoresizingMaskIntoConstraints="NO" id="dn7-0h-irZ">
+                                                <rect key="frame" x="21" y="1054" width="372" height="286"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaY-2o-uTo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="31"/>
+                                                        <color key="backgroundColor" systemColor="systemFillColor"/>
+                                                        <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
+                                                        <state key="normal" title="Find out"/>
+                                                        <connections>
+                                                            <action selector="findOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j2h-b7-YtM"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMg-hB-7rb">
+                                                        <rect key="frame" x="0.0" y="286" width="372" height="0.0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="YMg-hB-7rb" firstAttribute="top" secondItem="NaY-2o-uTo" secondAttribute="bottom" constant="20" id="C7q-YW-OBh"/>
+                                                    <constraint firstAttribute="width" constant="372" id="peh-nK-sXm"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                                        <constraints>
+                                            <constraint firstItem="dn7-0h-irZ" firstAttribute="leading" secondItem="SBb-Oj-Yu0" secondAttribute="leading" constant="21" id="0QR-bW-VIL"/>
+                                            <constraint firstItem="U0x-nR-7vO" firstAttribute="leading" secondItem="SBb-Oj-Yu0" secondAttribute="leading" constant="10" id="82Y-ac-cvN"/>
+                                            <constraint firstItem="AJr-go-YyZ" firstAttribute="top" secondItem="xbf-Ql-adk" secondAttribute="bottom" constant="36" id="94p-8D-vDa"/>
+                                            <constraint firstItem="xbf-Ql-adk" firstAttribute="top" secondItem="U0x-nR-7vO" secondAttribute="bottom" constant="29" id="AnJ-YS-WFC"/>
+                                            <constraint firstAttribute="trailing" secondItem="xbf-Ql-adk" secondAttribute="trailing" constant="9" id="G3q-Rl-U5x"/>
+                                            <constraint firstAttribute="trailing" secondItem="U0x-nR-7vO" secondAttribute="trailing" constant="10" id="Ikg-Xw-NaF"/>
+                                            <constraint firstAttribute="trailing" secondItem="dn7-0h-irZ" secondAttribute="trailing" constant="21" id="PCw-hR-Lk1"/>
+                                            <constraint firstAttribute="trailing" secondItem="AJr-go-YyZ" secondAttribute="trailing" constant="10" id="XJK-2i-ZTv"/>
+                                            <constraint firstItem="AJr-go-YyZ" firstAttribute="leading" secondItem="SBb-Oj-Yu0" secondAttribute="leading" constant="10" id="cUe-6h-wIs"/>
+                                            <constraint firstItem="U0x-nR-7vO" firstAttribute="top" secondItem="SBb-Oj-Yu0" secondAttribute="top" constant="10" id="fsW-xH-Yeb"/>
+                                            <constraint firstAttribute="height" constant="1400" id="gIb-7V-caC"/>
+                                            <constraint firstItem="dn7-0h-irZ" firstAttribute="top" secondItem="AJr-go-YyZ" secondAttribute="bottom" constant="30" id="h41-Pk-z5M"/>
+                                            <constraint firstItem="xbf-Ql-adk" firstAttribute="leading" secondItem="SBb-Oj-Yu0" secondAttribute="leading" constant="9" id="vhb-0o-vfB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1400" id="Psv-vZ-vO9"/>
+                                    <constraint firstAttribute="trailing" secondItem="SBb-Oj-Yu0" secondAttribute="trailing" id="VeV-C2-a9o"/>
+                                    <constraint firstAttribute="bottom" secondItem="SBb-Oj-Yu0" secondAttribute="bottom" id="m3j-Bg-cuk"/>
+                                    <constraint firstItem="SBb-Oj-Yu0" firstAttribute="top" secondItem="YXE-6x-Cuf" secondAttribute="top" id="mdz-pM-DfP"/>
+                                    <constraint firstItem="SBb-Oj-Yu0" firstAttribute="leading" secondItem="YXE-6x-Cuf" secondAttribute="leading" id="z2K-Bw-Wek"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YXE-6x-Cuf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7vi-a6-Sat"/>
+                            <constraint firstItem="YXE-6x-Cuf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KOR-1n-dAp"/>
+                            <constraint firstItem="SBb-Oj-Yu0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gsf-yv-HTj"/>
+                            <constraint firstItem="YXE-6x-Cuf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iQg-o2-N8B"/>
+                            <constraint firstAttribute="bottom" secondItem="YXE-6x-Cuf" secondAttribute="bottom" id="r4f-dg-imM"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1400"/>
+                    <connections>
+                        <outlet property="ageField" destination="40f-Fb-Gxj" id="V9s-w2-vcC"/>
+                        <outlet property="allergicToggle" destination="OZu-SL-6mS" id="mDZ-VG-SGt"/>
+                        <outlet property="healthCondition" destination="QWJ-Dd-YQm" id="bEE-v3-eRJ"/>
+                        <outlet property="nameField" destination="7ZK-bC-bKd" id="q84-SI-6Xk"/>
+                        <outlet property="resultPrint" destination="YMg-hB-7rb" id="tHV-Ep-GfW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="76.339285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="quaternaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
